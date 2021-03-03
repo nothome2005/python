@@ -1,0 +1,58 @@
+@keyframes circle{
+    0%{
+        left: -20%;
+    }
+    25%{
+        border-radius: 0%;
+    }
+    50%{
+        background-color: cornflowerblue;
+        border-radius: 40%;
+    }
+    100%{
+        left: 50%;
+        border-radius: 0%;
+        background-color:lightskyblue;
+        align-items: center;
+    }
+}
+@keyframes menu{
+    0%{
+        left: -20%;
+        opacity: 0;
+    }
+    25%{
+        border-radius: 0%;
+    }
+    50%{
+        background-color: cornflowerblue;
+        border-radius: 40%;
+        opacity: 0.5;
+    }
+    65%{
+        left: 30%;
+        border-radius: 30%;
+        background-color:rgb(15, 64, 94);
+    }
+    85%{
+        left: 2%;
+        border-radius: 15%;
+        background-color:rgb(47, 146, 207);
+        opacity: 0.9;
+    }
+    100%{
+        left: 5%;
+        border-radius: 15%;
+        background-color:lightskyblue;
+        opacity: 1;
+    }
+
+}
+@keyframes name{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
