@@ -1,0 +1,34 @@
+.item{
+    width:auto;
+   height:10;
+   object-fit:cover;
+
+
+}
+.item active{
+    width:auto;
+   height:10%;
+   object-fit:cover;
+
+
+}
+.post{
+    width:auto;
+   height:10%;
+   object-fit:cover;
+
+}
+#container{
+    width: 500px;
+    height: 150px;
+    margin: 1%;
+    background-color: lightskyblue;
+    color: lightskyblue;
+}
+body{
+    background-color: #c5d7e6;
+}
+.carousel-inner{
+    width: auto;
+    height: 20%;
+}
